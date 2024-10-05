@@ -12,7 +12,7 @@ body{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 8px;
-    padding: 25px;
+    padding: 30px;
     width: 350px;
 }
 .color{
@@ -70,6 +70,6 @@ button:active{
     width: 400px;
     border-radius: 20px;
     border: transparent;
-    margin: 20px;
-    background-color: red;
+    position: relative;
+    right: 30px;
 }
