@@ -70,4 +70,6 @@ button:active{
     width: 400px;
     border-radius: 20px;
     border: transparent;
+    margin: 20px;
+    background-color: red;
 }
