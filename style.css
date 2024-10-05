@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    font-family: cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+#key{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+    padding: 25px;
+    width: 350px;
+}
+.color{
+    background-color: cyan;
+    color: black;
+    font-weight: bolder;
+}
+.color:hover{
+    background-color: rgba(0, 255, 255, 0.791);
+}
+.color:active{
+    background-color: rgba(0, 255, 255, 0.935);
+}
+
+button{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    width: 70px;
+    height: 80px;
+    font-size: 2rem;
+    overflow: hidden;
+    border: none;
+    align-items: center;
+    justify-content: cenetr;
+    text-align: center;
+    cursor: pointer;
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.463);
+}
+button:active{
+    background-color: rgba(0, 0, 0, 0.873);
+}
+#display{
+    background: transparent;
+    width: 100%;
+    border-radius: 5px;
+   padding: 25px;
+   color: white;
+   font-size: 2.5rem;
+   text-align: left;
+   border: transparent;
+
+}
+#calculater{
+    background:transparent;
+    backdrop-filter: blur;
+    box-shadow: 0px 0px 30px rgba(227,228,237,0.7);
+    border: 2px solid rgba(255,255,255,0.18);
+
+    overflow: hidden;
+    width: 400px;
+    border-radius: 20px;
+    border: transparent;
+}
